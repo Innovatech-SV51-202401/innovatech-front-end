@@ -1,9 +1,13 @@
 import User from './user.entity';
-export class Client extends User {
-    constructor(firstName, lastName, age, address, email, phone, password, status) {
-        super(firstName, lastName, age, address, email, phone, password, status);
-        this.status = status;
-    }
 
+export class Client extends User {
+
+    reserve(Vehicle, statusValue){
+        Vehicle.vehicleStatus(statusValue);
+    }
+    constructor(idUser, firstName, lastName, age, address, email, phone, password, useStatus) {
+        super(idUser, firstName, lastName, age, address, email, phone, password, useStatus);
+        this.useStatus = useStatus;
+    }
 
 }
