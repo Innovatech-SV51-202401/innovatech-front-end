@@ -1,38 +1,28 @@
-export default class Vehicule {
-    set idVehicule(value) {
-        this._idVehicule = value;
-    }
-    set tipoVehicule(value) {
-        this._tipoVehicule = value;
-    }
-    set marca(value) {
-        this._marca = value;
-    }
-    set modelo(value) {
-        this._modelo = value;
-    }
-    set color(value) {
-        this._color = value;
-    }
-    set tarifa(value) {
-        this._tarifa = value;
-    }
-    set idOwner(value) {
-        this._idOwner = value;
-    }
-    set descripcion(value) {
-        this._descripcion = value;
+export  class Vehicle {
+
+    set rate(value) {
+        this._rate = value;
     }
 
-    constructor(idVehicule, tipoVehicule, marca, modelo, color, tarifa, idOwner, descripcion) {
-        this._idVehicule = idVehicule;
-        this._tipoVehicule = tipoVehicule;
-        this._marca = marca;
-        this._modelo = modelo;
-        this._color = color;
-        this._tarifa = tarifa;
-        this._idOwner = idOwner;
-        this._descripcion = descripcion;
+    set description(value) {
+        this._description = value;
+    }
+
+    set vehicleStatus(value) {
+        this._vehicleStatus = value;
+    }
+
+
+    constructor(idVehicle, vehicleType, brand, model, color, rate, idOwner, description, vehicleStatus) {
+       this.idVehicule = idVehicle;
+       this.vehicleType = vehicleType;
+       this.brand = brand;
+       this.model = model;
+       this.color = color;
+        this.idOwner = idOwner;
+        this._rate = rate;
+        this._description = description;
+        this._vehicleStatus = vehicleStatus;
     }
 
 }
