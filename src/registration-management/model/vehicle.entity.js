@@ -13,16 +13,17 @@ export  class Vehicle {
     }
 
 
-    constructor(idVehicle, vehicleType, brand, model, color, rate, idOwner, description, vehicleStatus) {
+    constructor(idVehicle, vehicleType, brand, model, color, rate, idOwner, description, vehicleStatus, urlToImage) {
        this.idVehicule = idVehicle;
        this.vehicleType = vehicleType;
        this.brand = brand;
        this.model = model;
        this.color = color;
-        this.idOwner = idOwner;
-        this._rate = rate;
-        this._description = description;
-        this._vehicleStatus = vehicleStatus;
+       this.idOwner = idOwner;
+       this._rate = rate;
+       this._description = description;
+       this._vehicleStatus = vehicleStatus;
+       this.urlToImage = urlToImage;
     }
 
 }
