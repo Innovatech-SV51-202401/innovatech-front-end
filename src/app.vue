@@ -1,11 +1,12 @@
 <script>
-import {Vehicle} from './components/Vehicle';
 import vehicleListComponent from "./registration-management/components/vehicle-list.component.vue";
+import navbar from "./registration-management/components/navbar.component.vue";
 
 export default {
   name:'App',
   components:{
-    vehicleListComponent
+    vehicleListComponent,
+    navbar
   },
   data(){
     return{
@@ -17,10 +18,14 @@ export default {
 
 <template>
 
-
+<navbar class="navbar" />
 
 </template>
 
 <style scoped>
+.navbar{
+  background-color: #42DC83;
+}
+
 
 </style>
