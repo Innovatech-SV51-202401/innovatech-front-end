@@ -1,0 +1,28 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "vehicleType": "Sedán",
+      "brand": "Toyota",
+      "model": "Corolla",
+      "color": "Negro",
+      "rate": 50,
+      "idOwner": 1,
+      "description": "Vehículo sedan de 4 puertas",
+      "vehicleStatus": "Disponible",
+      "urlToImage": "url1"
+    },
+    {
+      "id": 2,
+      "vehicleType": "SUV",
+      "brand": "Honda",
+      "model": "CR-V",
+      "color": "Azul",
+      "rate": 70,
+      "idOwner": 2,
+      "description": "Vehículo SUV espacioso",
+      "vehicleStatus": "Disponible",
+      "urlToImage": "url2"
+    }
+  ]
+}
