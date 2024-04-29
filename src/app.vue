@@ -3,32 +3,42 @@ import vehicleListComponent from "./registration-management/components/vehicle-l
 import {Vehicle} from "./registration-management/model/vehicle.entity.js";
 import navbar from "./registration-management/components/navbar.component.vue";
 import vehiclesData from '../server/vehicles.json'
+import workshopsData from '../server/db.json'
+import workshopListComponent from "./registration-management/components/workshop-list.component.vue";
 
 export default {
-  name:'App',
-  components:{
+  name: 'App',
+  components: {
     vehicleListComponent,
-    navbar
+    navbar,
+    workshopListComponent
   },
-  data(){
-    return{
-      vehicles:[]
+  data() {
+    return {
+      vehicles: [],
+      workshops: []
     }
   },
-  created(){
+  created() {
     this.loadVehicles();
+    this.loadWorkshops();
   },
   methods: {
-    loadVehicles(){
+    loadVehicles() {
       this.vehicles = vehiclesData.vehicles;
+    },
+    loadWorkshops() {
+      this.workshops = workshopsData.workshops;
+    }
   }
-}}
+}
 </script>
 
 <template>
 
 <navbar class="navbar" />
 <vehicle-list-component :vehicles="vehicles"/>
+<workshop-list-component :workshops="workshops"/>
 </template>
 
 <style scoped>

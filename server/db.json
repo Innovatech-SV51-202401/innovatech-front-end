@@ -390,5 +390,34 @@
       "dni": "335433512",
       "category": "owner"
     }
+  ],
+  "workshops": [
+    {
+      "id": 1,
+      "name": "Workshop 1",
+      "description": "Taller de reparacion de vehiculos",
+      "address": "Calle 1",
+      "phone": "123456789",
+      "idProprietor": "P01"
+
+    },
+    {
+      "id": 2,
+      "name": "Workshop 1",
+      "description": "Taller de reparacion de vehiculos",
+      "address": "Calle 1",
+      "phone": "123456789",
+      "idProprietor": "P01"
+
+    },
+    {
+      "id": 3,
+      "name": "Workshop 1",
+      "description": "Taller de reparacion de vehiculos",
+      "address": "Calle 1",
+      "phone": "123456789",
+      "idProprietor": "P01"
+
+    }
   ]
 }
