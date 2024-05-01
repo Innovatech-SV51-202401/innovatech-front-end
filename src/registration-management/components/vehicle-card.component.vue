@@ -13,7 +13,7 @@ export default {
 
 <template>
 
-  <pv-card class="m-2">
+  <pv-card class="m-2 flex w-20rem h-20rem"  >
     <template #header>
       <img :alt="vehicle.urlToImage">
       <p>id: {{vehicle.idOwner}}</p>

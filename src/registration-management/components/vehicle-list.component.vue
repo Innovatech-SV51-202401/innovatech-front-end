@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <div v-for="vehicle in vehicles">
+  <div v-for="vehicle in vehicles"  class="flex-wrap">
     <vehicle-card :vehicle="vehicle"/>
   </div>
 </template>
