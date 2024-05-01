@@ -1,0 +1,423 @@
+{
+  "glidego": [
+    {
+      "id": 1,
+      "name": "Francisco",
+      "lastname": "Hurtado",
+      "age": "20",
+      "email": "fhurtado@gmail.com",
+      "number": "926338345",
+      "dni": "45433512",
+      "category": "owner"
+    },
+    {
+      "id": 2,
+      "name": "Laura",
+      "lastname": "Gonzalez",
+      "age": "24",
+      "email": "lagonzalez@gmail.com",
+      "number": "923234234",
+      "dni": "55433512",
+      "category": "client"
+    },
+    {
+      "id": 3,
+      "name": "Carlos",
+      "lastname": "Gomez",
+      "age": "30",
+      "email": "cgomez@gmail.com",
+      "number": "923456789",
+      "dni": "65433512",
+      "category": "owner"
+    },
+    {
+      "id": 4,
+      "name": "Ana",
+      "lastname": "Perez",
+      "age": "28",
+      "email": "aperez@gmail.com",
+      "number": "987654321",
+      "dni": "75433512",
+      "category": "client"
+    },
+    {
+      "id": 5,
+      "name": "Juan",
+      "lastname": "Rodriguez",
+      "age": "35",
+      "email": "jrodriguez@gmail.com",
+      "number": "956789123",
+      "dni": "85433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 6,
+      "name": "Maria",
+      "lastname": "Lopez",
+      "age": "29",
+      "email": "mlopez@gmail.com",
+      "number": "989123456",
+      "dni": "95433512",
+      "category": "client"
+    },
+    {
+      "id": 7,
+      "name": "Jose",
+      "lastname": "Martinez",
+      "age": "40",
+      "email": "jmartinez@gmail.com",
+      "number": "945678912",
+      "dni": "15433512",
+      "category": "owner"
+    },
+    {
+      "id": 8,
+      "name": "Sofia",
+      "lastname": "Garcia",
+      "age": "32",
+      "email": "sgarcia@gmail.com",
+      "number": "934567891",
+      "dni": "25433512",
+      "category": "client"
+    },
+    {
+      "id": 9,
+      "name": "Pedro",
+      "lastname": "Hernandez",
+      "age": "45",
+      "email": "phernandez@gmail.com",
+      "number": "934567892",
+      "dni": "35433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 10,
+      "name": "Lucia",
+      "lastname": "Sanchez",
+      "age": "38",
+      "email": "lsanchez@gmail.com",
+      "number": "934567893",
+      "dni": "45433512",
+      "category": "client"
+    },
+    {
+      "id": 11,
+      "name": "Manuel",
+      "lastname": "Fernandez",
+      "age": "50",
+      "email": "mfernandez@gmail.com",
+      "number": "945678913",
+      "dni": "55433512",
+      "category": "owner"
+    },
+    {
+      "id": 12,
+      "name": "Rosa",
+      "lastname": "Diaz",
+      "age": "42",
+      "email": "rdiaz@gmail.com",
+      "number": "956789123",
+      "dni": "65433512",
+      "category": "client"
+    },
+    {
+      "id": 13,
+      "name": "Alberto",
+      "lastname": "Ruiz",
+      "age": "55",
+      "email": "aruiz@gmail.com",
+      "number": "967891234",
+      "dni": "75433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 14,
+      "name": "Marina",
+      "lastname": "Rodriguez",
+      "age": "48",
+      "email": "mrodriguez@gmail.com",
+      "number": "678912345",
+      "dni": "85433512",
+      "category": "client"
+    },
+    {
+      "id": 15,
+      "name": "Daniel",
+      "lastname": "Gomez",
+      "age": "35",
+      "email": "dgomez@gmail.com",
+      "number": "789123456",
+      "dni": "95433512",
+      "category": "owner"
+    },
+    {
+      "id": 16,
+      "name": "Alicia",
+      "lastname": "Perez",
+      "age": "32",
+      "email": "aperez@gmail.com",
+      "number": "891234567",
+      "dni": "105433512",
+      "category": "client"
+    },
+    {
+      "id": 17,
+      "name": "Javier",
+      "lastname": "Martinez",
+      "age": "45",
+      "email": "jmartinez@gmail.com",
+      "number": "912345678",
+      "dni": "115433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 18,
+      "name": "Patricia",
+      "lastname": "Garcia",
+      "age": "50",
+      "email": "pgarcia@gmail.com",
+      "number": "123456789",
+      "dni": "125433512",
+      "category": "client"
+    },
+    {
+      "id": 19,
+      "name": "Sergio",
+      "lastname": "Hernandez",
+      "age": "55",
+      "email": "shernandez@gmail.com",
+      "number": "234567890",
+      "dni": "135433512",
+      "category": "owner"
+    },
+    {
+      "id": 20,
+      "name": "Elena",
+      "lastname": "Diaz",
+      "age": "42",
+      "email": "ediaz@gmail.com",
+      "number": "345678901",
+      "dni": "145433512",
+      "category": "client"
+    },
+    {
+      "id": 21,
+      "name": "Jose",
+      "lastname": "Ruiz",
+      "age": "55",
+      "email": "jruiz@gmail.com",
+      "number": "456789012",
+      "dni": "155433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 22,
+      "name": "Marta",
+      "lastname": "Rodriguez",
+      "age": "48",
+      "email": "mrodriguez@gmail.com",
+      "number": "567890123",
+      "dni": "165433512",
+      "category": "client"
+    },
+    {
+      "id": 23,
+      "name": "David",
+      "lastname": "Gomez",
+      "age": "35",
+      "email": "dgomez@gmail.com",
+      "number": "678901234",
+      "dni": "175433512",
+      "category": "owner"
+    },
+    {
+      "id": 24,
+      "name": "Carmen",
+      "lastname": "Perez",
+      "age": "32",
+      "email": "cperez@gmail.com",
+      "number": "789012345",
+      "dni": "185433512",
+      "category": "client"
+    },
+    {
+      "id": 25,
+      "name": "Miguel",
+      "lastname": "Martinez",
+      "age": "45",
+      "email": "mmartinez@gmail.com",
+      "number": "890123456",
+      "dni": "195433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 26,
+      "name": "Laura",
+      "lastname": "Garcia",
+      "age": "50",
+      "email": "lgarcia@gmail.com",
+      "number": "901234567",
+      "dni": "205433512",
+      "category": "client"
+    },
+    {
+      "id": 27,
+      "name": "Jose",
+      "lastname": "Hernandez",
+      "age": "55",
+      "email": "jhernandez@gmail.com",
+      "number": "1234567890",
+      "dni": "215433512",
+      "category": "owner"
+    },
+    {
+      "id": 28,
+      "name": "Ana",
+      "lastname": "Diaz",
+      "age": "42",
+      "email": "adiaz@gmail.com",
+      "number": "2345678901",
+      "dni": "225433512",
+      "category": "client"
+    },
+    {
+      "id": 29,
+      "name": "Juan",
+      "lastname": "Ruiz",
+      "age": "55",
+      "email": "jruiz@gmail.com",
+      "number": "3456789012",
+      "dni": "235433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 30,
+      "name": "Sara",
+      "lastname": "Rodriguez",
+      "age": "48",
+      "email": "srodriguez@gmail.com",
+      "number": "4567890123",
+      "dni": "245433512",
+      "category": "client"
+    },
+    {
+      "id": 31,
+      "name": "Rafael",
+      "lastname": "Gomez",
+      "age": "35",
+      "email": "rgomez@gmail.com",
+      "number": "5678901234",
+      "dni": "255433512",
+      "category": "owner"
+    },
+    {
+      "id": 32,
+      "name": "Maria",
+      "lastname": "Perez",
+      "age": "32",
+      "email": "mperez@gmail.com",
+      "number": "6789012345",
+      "dni": "265433512",
+      "category": "client"
+    },
+    {
+      "id": 33,
+      "name": "Pablo",
+      "lastname": "Martinez",
+      "age": "45",
+      "email": "pmartinez@gmail.com",
+      "number": "7890123456",
+      "dni": "275433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 34,
+      "name": "Ines",
+      "lastname": "Garcia",
+      "age": "50",
+      "email": "ingarcia@gmail.com",
+      "number": "8901234567",
+      "dni": "285433512",
+      "category": "client"
+    },
+    {
+      "id": 35,
+      "name": "Diego",
+      "lastname": "Hernandez",
+      "age": "55",
+      "email": "dhernandez@gmail.com",
+      "number": "9012345678",
+      "dni": "295433512",
+      "category": "owner"
+    },
+    {
+      "id": 36,
+      "name": "Andrea",
+      "lastname": "Diaz",
+      "age": "42",
+      "email": "adiaz@gmail.com",
+      "number": "12345678901",
+      "dni": "305433512",
+      "category": "client"
+    },
+    {
+      "id": 37,
+      "name": "Luis",
+      "lastname": "Ruiz",
+      "age": "55",
+      "email": "lruiz@gmail.com",
+      "number": "23456789012",
+      "dni": "315433512",
+      "category": "mechanic"
+    },
+    {
+      "id": 38,
+      "name": "Nuria",
+      "lastname": "Rodriguez",
+      "age": "48",
+      "email": "nrodriguez@gmail.com",
+      "number": "34567890123",
+      "dni": "325433512",
+      "category": "client"
+    },
+    {
+      "id": 39,
+      "name": "Adrian",
+      "lastname": "Gomez",
+      "age": "35",
+      "email": "agomez@gmail.com",
+      "number": "45678901234",
+      "dni": "335433512",
+      "category": "owner"
+    }
+  ],
+  "workshops": [
+    {
+      "id": 1,
+      "name": "Workshop 1",
+      "description": "Taller de reparacion de vehiculos",
+      "address": "Calle 1",
+      "phone": "123456789",
+      "idProprietor": "P01"
+
+    },
+    {
+      "id": 2,
+      "name": "Workshop 1",
+      "description": "Taller de reparacion de vehiculos",
+      "address": "Calle 1",
+      "phone": "123456789",
+      "idProprietor": "P01"
+
+    },
+    {
+      "id": 3,
+      "name": "Workshop 1",
+      "description": "Taller de reparacion de vehiculos",
+      "address": "Calle 1",
+      "phone": "123456789",
+      "idProprietor": "P01"
+
+    }
+  ]
+}
