@@ -13,7 +13,7 @@ import 'primeicons/primeicons.css'
 import Menubar from "primevue/menubar";
 import Image from "primevue/image";
 import Card from "primevue/card";
-
+import PrimeButton from 'primevue/button';
 
 
 const app = createApp(App);

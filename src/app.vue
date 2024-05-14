@@ -6,10 +6,12 @@ import vehiclesData from '../server/vehicles.json'
 import workshopsData from '../server/db.json'
 import workshopListComponent from "./registration-management/components/workshop-list.component.vue";
 import WorkshopRegister from "./registration-management/components/workshop-register.component.vue";
+import Register from "./registration-management/components/register-user.component.vue";
 
 export default {
   name: 'App',
   components: {
+    Register,
     WorkshopRegister,
     vehicleListComponent,
     navbar,
@@ -37,8 +39,11 @@ export default {
 </script>
 
 <template>
+  <register></register>
+  <!--
   <navbar></navbar>
   <vehicle-list-component vehicles="vehicles"></vehicle-list-component>
+  -->
 </template>
 
 <style scoped>

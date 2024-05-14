@@ -5,5 +5,4 @@ export class Mechanic extends User {
         this.speciality = speciality;
         this._status = status;
     }
-
 }
