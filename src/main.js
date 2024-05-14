@@ -13,7 +13,7 @@ import 'primeicons/primeicons.css'
 import Menubar from "primevue/menubar";
 import Image from "primevue/image";
 import Card from "primevue/card";
-import PrimeButton from 'primevue/button';
+
 
 
 const app = createApp(App);
@@ -21,5 +21,5 @@ const app = createApp(App);
 app.use(PrimeVue,{ripple: true})
     .component('Menubar',Menubar)
     .component('Image', Image)
-    .component('pv-card', Card),
+    .component('pv-card', Card)
 app.mount('#app');

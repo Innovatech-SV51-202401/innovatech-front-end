@@ -5,6 +5,7 @@ export default {
   data() {
     return {
       items: [
+/*
         {
           label: 'Home',
           icon: 'pi pi-fw pi-home',
@@ -29,6 +30,7 @@ export default {
           icon:'pi pi-fw pi-phone',
 
         },
+*/
         {
           label: 'Login',
           icon: 'pi pi-fw pi-user',
@@ -52,18 +54,23 @@ export default {
 
 <template>
   <Menubar :model="items">
+    <!--
     <template #start>
-      <Image src="/src/assets/logo-nav.png" alt="Image" width="70"/>
+      <div class="grid mt-4">
+        <Image src="src/assets/Logo.png" alt="Image" width="100"/>
+        <div class="col text-right">Glidego</div>
+      </div>
     </template>
+    -->
     <template #item="{ item, props }">
-      <a v-ripple class="flex align-items-center" v-bind="props.action">
+      <a v-ripple v-bind="props.action">
         <span :class="item.icon" />
         <span class="ml-2">{{ item.label }}</span>
       </a>
     </template>
-    <template #end>
-    </template>
+
   </Menubar>
+
 </template>
 
 <style scoped>
