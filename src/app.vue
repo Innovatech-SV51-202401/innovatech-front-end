@@ -6,10 +6,12 @@ import vehiclesData from '../server/vehicles.json'
 import workshopsData from '../server/db.json'
 import workshopListComponent from "./registration-management/components/workshop-list.component.vue";
 import WorkshopRegister from "./registration-management/components/workshop-register.component.vue";
+import LoginForm from "./iam/login.component.vue";
 
 export default {
   name: 'App',
   components: {
+    LoginForm,
     WorkshopRegister,
     vehicleListComponent,
     navbar,
@@ -38,26 +40,10 @@ export default {
 
 <template>
 
-  <navbar></navbar>
-
-  <!---
-  <vehicle-list-component vehicles="vehicles"></vehicle-list-component>
-  -->
-
+  <LoginForm></LoginForm>
 
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+
 </style>
