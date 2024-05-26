@@ -24,6 +24,7 @@ export default {
     <!-- se mostrará el logo -->
     <img src="/src/assets/Logo.png" alt="Logo del startup" height="130" width="170">
 
+    <!-- Implementación del card -->
     <div class="p-field">
       <label for="username">User</label> <br>
       <input id="username" v-model="username" type="text">
@@ -52,7 +53,9 @@ export default {
   color: white;
   border-radius: 10px;
   padding: 0.5rem;
-  border: 0px;
+  border: 0;
+  padding-left: 26px;
+  padding-right: 26px;
 }
 .btn-input:hover {
   background-color: yellowgreen;
