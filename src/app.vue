@@ -6,11 +6,13 @@ import vehiclesData from '../server/vehicles.json'
 import workshopsData from '../server/db.json'
 import workshopListComponent from "./registration-management/components/workshop-list.component.vue";
 import WorkshopRegister from "./registration-management/components/workshop-register.component.vue";
-import LoginForm from "./iam/login.component.vue";
+import LoginForm from "./iam/components/login.component.vue";
+import Login from "./iam/components/login.component.vue";
 
 export default {
   name: 'App',
   components: {
+    Login,
     LoginForm,
     WorkshopRegister,
     vehicleListComponent,
@@ -40,7 +42,7 @@ export default {
 
 <template>
 
-  <LoginForm></LoginForm>
+  <login></login>
 
 </template>
 
