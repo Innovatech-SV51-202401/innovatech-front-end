@@ -9,10 +9,12 @@ import WorkshopRegister from "./registration-management/components/workshop-regi
 import LoginForm from "./iam/components/login.component.vue";
 import Login from "./iam/components/login.component.vue";
 import RegisterUser from "./iam/components/register-user.component.vue";
+import RegisterSuccessfully from "./iam/components/register-successfully.component.vue";
 
 export default {
   name: 'App',
   components: {
+    RegisterSuccessfully,
     RegisterUser,
     Login,
     LoginForm,
@@ -44,7 +46,7 @@ export default {
 
 <template>
 
-  <register-user></register-user>
+  <router-view></router-view>
 
 </template>
 
