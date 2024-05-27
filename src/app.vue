@@ -8,10 +8,12 @@ import workshopListComponent from "./registration-management/components/workshop
 import WorkshopRegister from "./registration-management/components/workshop-register.component.vue";
 import LoginForm from "./iam/components/login.component.vue";
 import Login from "./iam/components/login.component.vue";
+import RegisterUser from "./iam/components/register-user.component.vue";
 
 export default {
   name: 'App',
   components: {
+    RegisterUser,
     Login,
     LoginForm,
     WorkshopRegister,
@@ -42,7 +44,7 @@ export default {
 
 <template>
 
-  <login></login>
+  <register-user></register-user>
 
 </template>
 
