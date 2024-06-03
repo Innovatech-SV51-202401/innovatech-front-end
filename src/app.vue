@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from "vue";
-import app from "./public/pages/mechanic/mechanic-view.component.vue";
+import app from "./public/pages/profile/mechanic-view.component.vue";
 export default defineComponent({
   components: { app }
 })
