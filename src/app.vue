@@ -5,7 +5,6 @@ export default defineComponent({
   components: { app }
 })
 
-
 </script>
 <template>
   <app></app>
