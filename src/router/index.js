@@ -13,7 +13,7 @@ const router = createRouter({
         {path: '/profile', component: MechanicProfile},
         {path: '/wallet', component: MechanicWallet},
         {path: '/history', component: MechanicHistory},
-        {path: '/', redirect: '/profile'},
+        {path: '/', redirect: '/profile'}
     ]
 });
 
