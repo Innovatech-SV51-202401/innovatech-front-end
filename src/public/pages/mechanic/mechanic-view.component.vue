@@ -5,7 +5,10 @@ export default {
     return{
       drawer: false,
       items:[
-        {label: 'Home', to: 'home'},
+        {label: 'Home', to: '/home'},
+        {label: 'Teresita', to: '/'},
+        {label: 'Wallet', to : '/wallet'},
+        {label: 'Profile', to: '/profile'},
       ]
     }
   },

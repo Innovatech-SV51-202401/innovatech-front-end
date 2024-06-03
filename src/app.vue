@@ -1,12 +1,14 @@
 <script>
 import { defineComponent } from "vue";
+import App from "./public/pages/mechanic/mechanic-view.component.vue";
 export default defineComponent({
-  components: { app }
+  components: { App }
 })
 
 
 </script>
 <template>
+  <app></app>
   <main>
     <router-view/>
   </main>
