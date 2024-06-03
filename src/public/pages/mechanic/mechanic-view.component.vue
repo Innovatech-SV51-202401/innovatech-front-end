@@ -6,7 +6,7 @@ export default {
       drawer: false,
       items:[
         {label: 'Home', to: '/home'},
-        {label: 'Teresita', to: '/'},
+        {label: 'History', to: '/history'},
         {label: 'Wallet', to : '/wallet'},
         {label: 'Profile', to: '/profile'},
       ]
@@ -38,3 +38,4 @@ export default {
   </header>
   <pv-sidebar v-model:visible="drawer"/>
 </template>
+

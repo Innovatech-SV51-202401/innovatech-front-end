@@ -46,6 +46,7 @@ import Button from "primevue/button";
 import Tag from "primevue/tag";
 
 export default {
+  name: 'MechanicHome',
   components: {
     Card,
     Button,
