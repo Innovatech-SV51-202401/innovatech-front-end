@@ -22,7 +22,7 @@ export default {
   <br> <br> <br> <br>
   <div class="p-fluid card">
     <!-- se mostrará el logo -->
-    <img src="/src/assets/Logo.png" alt="Logo del startup" height="130" width="170">
+    <img src="/src/assets/Logo-1.png" alt="Logo del startup" height="130" width="170">
 
     <!-- Implementación del card -->
     <div class="p-field">
