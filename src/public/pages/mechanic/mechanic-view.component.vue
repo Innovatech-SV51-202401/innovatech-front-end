@@ -9,6 +9,7 @@ export default {
         {label: 'History', to: '/history'},
         {label: 'Wallet', to : '/wallet'},
         {label: 'Profile', to: '/profile'},
+        {label: 'Close Sesion', to: 'sign'}
       ]
     }
   },
