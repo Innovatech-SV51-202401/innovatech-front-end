@@ -36,6 +36,7 @@ import 'primevue/resources/primevue.min.css';
 import router from './router/index.js'
 import DataView from "primevue/dataview";
 import Paginator from "primevue/paginator";
+import Column from "primevue/column";
 
 createApp((App))
     .use(PrimeVue, {ripple: true})
@@ -63,7 +64,9 @@ createApp((App))
     .component('pv.textarea', Textarea)
     .component('pv-toolbar', Toolbar)
     .component('pv-toast', Toast)
-    .component('pv-dataview', DataView)
+    .component('pv-data-view', DataView)
     .component('pv-paginator', Paginator)
+    .component('pv-column', Column)
+    .component('pv-data-table',DataTable)
     .use(router)
     .mount('#app');
