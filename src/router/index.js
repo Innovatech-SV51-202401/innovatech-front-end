@@ -4,6 +4,7 @@ import MechanicWallet from "../suscriptions-and-payments/pages/mechanic/mechanic
 import MechanicHistory from "../profile-management/component/mechanic/mechanic-history.component.vue";
 
 import OwnerHome from "../profile-management/component/owner/owner-home.component.vue";
+import OwnerVehicle from "../service-execution-and-monitor/pages/owner/owner-vehicle.component.vue";
 import OwnerWallet from "../suscriptions-and-payments/pages/owner/owner-wallet.component.vue";
 import MechanicProfileComponent from "../profile-management/component/mechanic/mechanic-profile.component.vue";
 
@@ -19,6 +20,7 @@ const router = createRouter({
 
         {path: '/owner/home', component: OwnerHome},
         {path: '/owner/wallet', component: OwnerWallet},
+        {path: '/owner/vehicle', component: OwnerVehicle},
         {path: '/owner/history', component: MechanicHistory},
 
 
