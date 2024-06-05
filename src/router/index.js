@@ -6,7 +6,7 @@ import MechanicWallet from "../profile-management/component/mechanic/mechanic-wa
 import MechanicHistory from "../profile-management/component/mechanic/mechanic-history.component.vue";
 
 import OwnerHome from "../profile-management/component/owner/owner-home.component.vue";
-import OwnerWallet from "../glidego/components/owner/owner-wallet.component.vue";
+import OwnerWallet from "../suscriptions-and-payments/pages/owner/owner-wallet.component.vue";
 
 
 const router = createRouter({
