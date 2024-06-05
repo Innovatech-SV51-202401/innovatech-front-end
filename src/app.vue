@@ -1,57 +1,16 @@
 <script>
-import vehicleListComponent from "./registration-management/components/vehicle-list.component.vue";
-import {Vehicle} from "./registration-management/model/vehicle.entity.js";
-import navbar from "./registration-management/components/navbar.component.vue";
-import vehiclesData from '../server/vehicles.json'
-import workshopsData from '../server/db.json'
-import workshopListComponent from "./registration-management/components/workshop-list.component.vue";
-import WorkshopRegister from "./registration-management/components/workshop-register.component.vue";
-import LoginForm from "./iam/components/login.component.vue";
-import Login from "./iam/components/login.component.vue";
-import RegisterUser from "./iam/components/register-user.component.vue";
-import RegisterSuccessfully from "./iam/components/register-successfully.component.vue";
-
-export default {
-  name: 'App',
-  components: {
-    RegisterSuccessfully,
-    RegisterUser,
-    Login,
-    LoginForm,
-    WorkshopRegister,
-    vehicleListComponent,
-    navbar,
-    workshopListComponent
-  },
-  data() {
-    return {
-      vehicles: [],
-      workshops: []
-    }
-  },
-  created() {
-    this.loadVehicles();
-    this.loadWorkshops();
-  },
-  methods: {
-    loadVehicles() {
-      this.vehicles = vehiclesData.vehicles;
-    },
-    loadWorkshops() {
-      this.workshops = workshopsData.workshops;
-    }
-  }
-}
-
 import { defineComponent } from "vue";
-import app from "./public/pages/profile/mechanic-view.component.vue";
+import ownerViewComponent from "./public/pages/profile/owner-view.component.vue";
+import mechanicViewComponent from "./public/pages/profile/mechanic-view.component.vue";
+import MechanicView from "./public/pages/profile/mechanic-view.component.vue";
 export default defineComponent({
-  components: { app }
+  components: {MechanicView, ownerViewComponent }
 })
 
 </script>
 <template>
-  <app></app>
+  <!-- <owner-view-component></owner-view-component> -->
+  <mechanic-view/>
   <main>
     <router-view/>
   </main>
