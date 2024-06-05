@@ -16,7 +16,6 @@ export default {
   name: 'ReservedVehicleCard',
   components: {
 
-
   },
   props: {
     vehicle: {
