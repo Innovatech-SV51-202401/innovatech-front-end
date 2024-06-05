@@ -42,14 +42,18 @@ export default {
     }
   }
 }
+
+import { defineComponent } from "vue";
+import app from "./public/pages/profile/mechanic-view.component.vue";
+export default defineComponent({
+  components: { app }
+})
+
 </script>
-
 <template>
-
-  <router-view></router-view>
-
+  <app></app>
+  <main>
+    <router-view/>
+  </main>
 </template>
 
-<style scoped>
-
-</style>

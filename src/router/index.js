@@ -1,16 +1,46 @@
 import {createRouter, createWebHistory} from "vue-router";
-import LoginComponen from "../iam/components/login.component.vue";
-import RegisterUserComponent from "../iam/components/register-user.component.vue";
-import RegisterSuccessfullyComponent from "../iam/components/register-successfully.component.vue";
+import HomeMechanic from "../profile-management/component/mechanic/mechanic-home.component.vue";
+import MechanicProfile from "../profile-management/component/mechanic/mechanic-profile.component.vue";
+import MechanicWallet from "../profile-management/component/mechanic/mechanic-wallet.component.vue";
+import MechanicHistory from "../profile-management/component/mechanic/mechanic-history.component.vue";
+
+import OwnerHome from "../profile-management/component/owner/owner-home.component.vue";
+import OwnerWallet from "../glidego/components/owner/owner-wallet.component.vue";
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [
-        {path: '/', redirect: '/login'},
-        {path: '/login', component: LoginComponen},
-        {path: '/register', component: RegisterUserComponent},
-        {path: '/register/successfully', component: RegisterSuccessfullyComponent},
+        {path: '/home', component: HomeMechanic},
+        {path: '/profile', component: MechanicProfile},
+        {path: '/wallet', component: MechanicWallet},
+        {path: '/history', component: MechanicHistory},
+        {path: '/', redirect: '/home'},
+        {path: '/owner/home', component: OwnerHome},
+        {path: '/owner/wallet', component: OwnerWallet},
+
     ]
 });
 
+
 export default router;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
