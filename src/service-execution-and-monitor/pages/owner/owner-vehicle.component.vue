@@ -5,7 +5,10 @@ export default {
   data(){
     return {
       vehicles: [
-        {id: 1, type: 'Bike'}
+        {id: 1, type: 'Bike'},
+        {id: 2, type: 'Scooter'},
+        {id: 3, type: 'Bike'},
+        {id: 4, type: 'Bike'}
       ]
     }
   }
