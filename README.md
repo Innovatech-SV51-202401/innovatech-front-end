@@ -1,7 +1,34 @@
-# Vue 3 + Vite
+# TRABAJO FINAL - APLICACIONES WEB
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Aplicación web desarrollado por el equipo de INNOVATECH, somos un equipo conformado de 6 integrantes que venimos desarrollando el software para promover un transporte eficiente y ecológico en la ciudad de Lima.
 
-## Recommended IDE Setup
+## Repositorio GitHub
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- Nuestra repositorio click [aqui](https://github.com/Innovatech-SV51-202401)
+
+## Integrantes:
+<ul>
+    <li>Integrante 1</li>
+    <li>Integrante 1</li>
+    <li>Integrante 1</li>
+    <li>Integrante 1</li>
+    <li>Integrante 1</li>
+</ul>
+
+## Tecnologías
+
+- [Github](https://github.com/)
+- [VUE](https://github.com/)
+- [Primevue](https://github.com/)
+- [Primeicons](https://github.com/)
+- [Github](https://github.com/)
+- [Primeflex](https://github.com/)
+- [Axios](https://github.com/)
+- [json](https://github.com/)
+
+## Herramientas
+
+- [WebStorm](https://github.com/)
+- [Rider](https://github.com/)
+- [Git](https://github.com/)
+- [Git Desktop](https://github.com/)
