@@ -7,13 +7,29 @@ export default defineComponent({
   components: {ClientView, MechanicView, OwnerViewComponent },
   data() {
     return {
-      isMechanic: false, // Cambia este valor para mostrar el componente que desees
+      userType: 'mechanic', // Cambia este valor para mostrar el componente que desees
     };
   },
+  methods: {
+    setMechanic() {
+      this.userType = 'mechanic';
+    },
+    setOwner() {
+      this.userType = 'owner';
+    },
+    setClient() {
+      this.userType = 'client';
+    }
+  }
 })
 </script>
 <template>
-  <mechanic-view v-if="isMechanic"/>
+  <button @click="setMechanic">Mechanic</button>
+  <button @click="setOwner">Owner</button>
+  <button @click="setClient">Client</button>
+
+  <mechanic-view v-if="userType === 'mechanic'"/>
+  <owner-view-component v-else-if="userType === 'owner'"/>
   <client-view v-else/>
 
   <main>

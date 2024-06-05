@@ -10,6 +10,9 @@ import MechanicProfileComponent from "../profile-management/component/mechanic/m
 
 import ClientHomeComponent from "../dashboard-and-analytics/pages/client/client-home.component.vue";
 
+import ClientServiceHistoryComponent from "../profile-management/component/client/client-service-history.component.vue";
+import rentServiceComponent from "../service-execution-and-monitor/pages/client/rent-service.component.vue";
+
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -25,8 +28,8 @@ const router = createRouter({
 
 
         {path: '/client/home', component: ClientHomeComponent},
-        {path: '/client/history', component: MechanicHistory},
-        {path: '/client/service', component: MechanicHistory},
+        {path: '/client/history', component: ClientServiceHistoryComponent},
+        {path: '/client/service', component: rentServiceComponent},
         {path: '/client/plans', component: MechanicHistory},
         {path: '/client/profile', component: MechanicHistory},
 

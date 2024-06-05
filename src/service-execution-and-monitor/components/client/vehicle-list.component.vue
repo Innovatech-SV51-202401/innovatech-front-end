@@ -61,7 +61,7 @@ export default {
 
 <style scoped>
 .vehicles-list-container {
-  max-height: 400px; /
+  max-height: 400px;
   overflow-y: auto;
   margin-bottom: 16px;
 }
