@@ -1,10 +1,10 @@
 <script>
 import { defineComponent } from "vue";
-import ownerViewComponent from "./public/pages/profile/owner-view.component.vue";
-import mechanicViewComponent from "./public/pages/profile/mechanic-view.component.vue";
+import OwnerViewComponent from "./public/pages/profile/owner-view.component.vue";
 import MechanicView from "./public/pages/profile/mechanic-view.component.vue";
+import ClientView from "./public/pages/profile/client-view.component.vue";
 export default defineComponent({
-  components: {MechanicView, ownerViewComponent },
+  components: {ClientView, MechanicView, OwnerViewComponent },
   data() {
     return {
       isMechanic: false, // Cambia este valor para mostrar el componente que desees
@@ -14,7 +14,7 @@ export default defineComponent({
 </script>
 <template>
   <mechanic-view v-if="isMechanic"/>
-  <owner-view-component v-else/>
+  <client-view v-else/>
 
   <main>
     <router-view/>
