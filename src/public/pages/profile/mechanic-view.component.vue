@@ -9,7 +9,7 @@ export default {
         {label: 'History', to: '/mechanic/history'},
         {label: 'Wallet', to : '/mechanic/wallet'},
         {label: 'Profile', to: '/mechanic/profile'},
-        {label: 'Sign out', to: 'sign'}
+        {label: 'Sign out', to: '/sign'}
       ]
     }
   },

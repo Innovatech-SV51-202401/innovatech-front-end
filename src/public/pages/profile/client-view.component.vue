@@ -10,7 +10,7 @@ export default {
         {label: 'Service', to : '/client/service'},
         {label: 'Plans', to : '/client/plans'},
         {label: 'Profile', to: '/client/profile'},
-        {label: 'Sign out', to: 'sign'}
+        {label: 'Sign out', to: '/sign'}
       ]
     }
   },

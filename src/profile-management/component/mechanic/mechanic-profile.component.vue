@@ -1,22 +1,23 @@
 <template>
-  <div>
-    <Card style="width: 40rem; overflow: hidden; margin: 20px">
+  <div class="d-flex justify-content-center">
+    <Card style="width: 40rem; overflow: hidden; margin: 20px; text-align-center">
       <template #header>
         <div class="flex justify-content-center">
           <img :src="perfilImage" :alt="mechanicName" height="180px" width="auto" style="border-radius: 10px; margin: 10px" />
         </div>
       </template>
       <template #title>
-        <h4>{{ mechanicName }}</h4>
+        <div class="flex justify-content-center">
+          <h4>{{ mechanicName }}</h4>
+        </div>
       </template>
       <template #content>
-        <p>Especialidad: {{ mechanicSpecialty }}</p>
-        <p>Datos de contacto:</p>
-        <ul>
-          <li v-for="reference in mechanicReferences" :key="reference">
-            {{ reference }}
-          </li>
-        </ul>
+        <div class="text-center">
+          <h3>{{ mechanicSpecialty }}</h3>
+          <h3>------------- Contacto -------------</h3>
+          <p>Correo: <Tag value="mechanic@gmail.com" severity="info" /></p>
+          <p>Telefono: <Tag value="  926 334 654" severity="info" /></p>
+        </div>
       </template>
     </Card>
   </div>
@@ -38,11 +39,7 @@ export default {
     return {
       mechanicName: 'Santiago Peres de Cuellar',
       perfilImage: "https://i.ibb.co/n0x34pJ/mechanic.jpg",
-      mechanicSpecialty: 'Mecánico de vehiculo menores',
-      mechanicReferences: [
-        'Correo: mecatronic@gmail.com',
-        'Numero de telefono: 923143245'
-      ]
+      mechanicSpecialty: 'Mecánico de vehiculo menores'
     };
   }
 };

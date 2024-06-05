@@ -9,7 +9,7 @@ export default {
         {label: 'Vehicles', to: '/owner/vehicle'},
         {label: 'Wallet', to : '/owner/wallet'},
         {label: 'Profile', to: '/owner/profile'},
-        {label: 'Sign out', to: 'sign'}
+        {label: 'Sign out', to: '/sign'}
       ]
     }
   },
