@@ -13,7 +13,6 @@ Aplicación web desarrollado por el equipo de INNOVATECH, somos un equipo confor
     <li>Integrante 1</li>
     <li>Integrante 1</li>
     <li>Integrante 1</li>
-    <li>Integrante 1</li>
 </ul>
 
 ## Tecnologías
