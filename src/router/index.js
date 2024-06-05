@@ -20,7 +20,7 @@ const router = createRouter({
         {path: '/owner/home', component: OwnerHome},
         {path: '/owner/wallet', component: OwnerWallet},
         {path: '/owner/vehicle', component: OwnerVehicle},
-        ,
+
         {path: '/owner/history', component: MechanicHistory},
 
 
