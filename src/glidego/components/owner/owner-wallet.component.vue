@@ -5,15 +5,15 @@ export default {
   data(){
     return {
       commission: [
-        {date: '2024-05-30', amount: 10, vehicle: 'Bike', hour: '16:50'},
-        {date: '2024-04-25', amount: 5, vehicle: 'Scooter', hour: '16:45'},
-        {date: '2024-04-13', amount: 10, vehicle: 'Bike', hour: '16:52'},
-        {date: '2024-03-29', amount: 5, vehicle: 'Scooter', hour: '16:56'},
-        {date: '2024-03-01', amount: 10, vehicle: 'Bike', hour: '16:54'},
-        {date: '2024-02-15', amount: 5, vehicle: 'Scooter', hour: '16:50'},
-        {date: '2024-02-12', amount: 10, vehicle: 'Bike', hour: '17:01'},
-        {date: '2024-01-17', amount: 5, vehicle: 'Scooter', hour: '16:55'},
-        {date: '2024-01-09', amount: 13.5, vehicle: 'Bike', hour: '16:47'}
+        {date: '2024-05-30', amount: 'S/. ' + 10, vehicle: 'Bike', hour: '16:50'},
+        {date: '2024-04-25', amount: 'S/. ' + 5, vehicle: 'Scooter', hour: '16:45'},
+        {date: '2024-04-13', amount: 'S/. ' + 10, vehicle: 'Bike', hour: '16:52'},
+        {date: '2024-03-29', amount: 'S/. ' + 5, vehicle: 'Scooter', hour: '16:56'},
+        {date: '2024-03-01', amount: 'S/. ' + 10, vehicle: 'Bike', hour: '16:54'},
+        {date: '2024-02-15', amount: 'S/. ' + 5, vehicle: 'Scooter', hour: '16:50'},
+        {date: '2024-02-12', amount: 'S/. ' + 10, vehicle: 'Bike', hour: '17:01'},
+        {date: '2024-01-17', amount: 'S/. ' + 5, vehicle: 'Scooter', hour: '16:55'},
+        {date: '2024-01-09', amount: 'S/. ' + 13.5, vehicle: 'Bike', hour: '16:47'}
       ]
     }
   }
