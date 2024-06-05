@@ -1,13 +1,16 @@
 <script>
 import { defineComponent } from "vue";
-import app from "./public/pages/profile/mechanic-view.component.vue";
+import ownerViewComponent from "./public/pages/profile/owner-view.component.vue";
+import mechanicViewComponent from "./public/pages/profile/mechanic-view.component.vue";
+import MechanicView from "./public/pages/profile/mechanic-view.component.vue";
 export default defineComponent({
-  components: { app }
+  components: {MechanicView, ownerViewComponent }
 })
 
 </script>
 <template>
-  <app></app>
+  <!-- <owner-view-component></owner-view-component> -->
+  <mechanic-view/>
   <main>
     <router-view/>
   </main>
