@@ -1,15 +1,15 @@
 <script>
 export default {
-  name: 'app',
+  name: 'mechanic-view',
   data(){
     return{
       drawer: false,
       items:[
-        {label: 'Home', to: '/home'},
-        {label: 'History', to: '/history'},
-        {label: 'Wallet', to : '/wallet'},
-        {label: 'Profile', to: '/profile'},
-        {label: 'Sign out', to: 'sign'}
+        {label: 'Home', to: '/mechanic/home'},
+        {label: 'History', to: '/mechanic/history'},
+        {label: 'Wallet', to : '/mechanic/wallet'},
+        {label: 'Profile', to: '/mechanic/profile'},
+        {label: 'Sign out', to: '/sign'}
       ]
     }
   },

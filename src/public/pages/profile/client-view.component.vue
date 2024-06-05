@@ -1,14 +1,15 @@
 <script>
 export default {
-  name: "owner-view",
+  name: 'client-view',
   data(){
     return{
       drawer: false,
       items:[
-        {label: 'Home', to: '/owner/home'},
-        {label: 'Vehicles', to: '/owner/vehicle'},
-        {label: 'Wallet', to : '/owner/wallet'},
-        {label: 'Profile', to: '/owner/profile'},
+        {label: 'Home', to: '/client/home'},
+        {label: 'History', to: '/client/history'},
+        {label: 'Service', to : '/client/service'},
+        {label: 'Plans', to : '/client/plans'},
+        {label: 'Profile', to: '/client/profile'},
         {label: 'Sign out', to: '/sign'}
       ]
     }
@@ -39,7 +40,3 @@ export default {
   </header>
   <pv-sidebar v-model:visible="drawer"/>
 </template>
-
-<style scoped>
-
-</style>

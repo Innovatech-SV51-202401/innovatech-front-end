@@ -8,17 +8,10 @@
       </template>
       <template #title>
         <div class="flex justify-content-center">
-          <h4>{{ mechanicName }}</h4>
+          <h4>{{ exit }}</h4>
         </div>
       </template>
-      <template #content>
-        <div class="text-center">
-          <h3>{{ mechanicSpecialty }}</h3>
-          <h3>------------- Contacto -------------</h3>
-          <p>Correo: <Tag value="clien@gmail.com" severity="info" /></p>
-          <p>Telefono: <Tag value="  926 334 654" severity="info" /></p>
-        </div>
-      </template>
+
     </Card>
   </div>
 </template>
@@ -29,7 +22,7 @@ import Button from "primevue/button";
 import Tag from "primevue/tag";
 
 export default {
-  name: 'ClientProfile',
+  name: 'Sign',
   components: {
     Card,
     Button,
@@ -37,9 +30,7 @@ export default {
   },
   data() {
     return {
-      mechanicName: 'Beth Oneglio Paz',
-      perfilImage: "https://i.ibb.co/n0x34pJ/mechanic.jpg",
-      mechanicSpecialty: 'Client'
+      exit: 'Saliendo ....',
     };
   }
 };
