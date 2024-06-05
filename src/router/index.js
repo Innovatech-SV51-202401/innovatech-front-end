@@ -2,7 +2,7 @@ import {createRouter, createWebHistory} from "vue-router";
 
 import HomeMechanic from "../profile-management/component/mechanic/mechanic-home.component.vue";
 import MechanicProfile from "../profile-management/component/mechanic/mechanic-profile.component.vue";
-import MechanicWallet from "../profile-management/component/mechanic/mechanic-wallet.component.vue";
+import MechanicWallet from "../suscriptions-and-payments/pages/mechanic/mechanic-wallet.component.vue";
 import MechanicHistory from "../profile-management/component/mechanic/mechanic-history.component.vue";
 
 import OwnerHome from "../profile-management/component/owner/owner-home.component.vue";
