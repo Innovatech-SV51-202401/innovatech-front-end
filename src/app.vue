@@ -24,6 +24,7 @@ export default defineComponent({
 })
 </script>
 <template>
+
   <button @click="setMechanic">Mechanic</button>
   <button @click="setOwner">Owner</button>
   <button @click="setClient">Client</button>

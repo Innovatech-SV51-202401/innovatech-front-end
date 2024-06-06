@@ -5,7 +5,7 @@ export default {
     return{
       drawer: false,
       items:[
-        {label: 'Home', to: '/mechanic/home'},
+        {label: 'Home', to: '/home'},
         {label: 'History', to: '/mechanic/history'},
         {label: 'Wallet', to : '/mechanic/wallet'},
         {label: 'Profile', to: '/mechanic/profile'},
@@ -17,6 +17,9 @@ export default {
     toggleDrawer() {
       this.drawer = !this.drawer;
     }
+  },
+  mounted() {
+    this.$router.push('/Home'); // Redirigir a la vista 'App'
   }
 }
 </script>
