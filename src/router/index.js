@@ -36,10 +36,7 @@ const router = createRouter({
         {path: '/client/service', component: rentServiceComponent},
         {path: '/client/plans', component: MechanicHistory},
         {path: '/client/profile', component: ClientProfile},
-        {path: '/home', component: Home },
-
-        {path: '/', redirect: '/home'},
-
+        {path: '/:pathMatch(.*)*', component: Home },
 
     ]
 });

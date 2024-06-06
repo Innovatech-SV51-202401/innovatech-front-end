@@ -1,16 +1,18 @@
 <script>
+import Home from "./view-general.component.vue";
+
 export default {
   name: 'client-view',
   data(){
     return{
       drawer: false,
       items:[
-        {label: 'Home', to: '/home'},
+        {label: 'Home', to: '/client/home'},
         {label: 'History', to: '/client/history'},
         {label: 'Service', to : '/client/service'},
         {label: 'Plans', to : '/client/plans'},
         {label: 'Profile', to: '/client/profile'},
-        {label: 'Sign out', to: '/sign'}
+        {label: 'Sign out', to: '/sign'},
 
       ]
     }
@@ -20,9 +22,7 @@ export default {
       this.drawer = !this.drawer;
     }
   },
-  mounted() {
-    this.$router.push('/Home'); // Redirigir a la vista 'App'
-  }
+
 }
 </script>
 

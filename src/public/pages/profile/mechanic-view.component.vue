@@ -1,15 +1,17 @@
 <script>
+import Home from "./view-general.component.vue";
+
 export default {
   name: 'mechanic-view',
   data(){
     return{
       drawer: false,
       items:[
-        {label: 'Home', to: '/home'},
+        {label: 'Home', to: '/mechanic/home'},
         {label: 'History', to: '/mechanic/history'},
         {label: 'Wallet', to : '/mechanic/wallet'},
         {label: 'Profile', to: '/mechanic/profile'},
-        {label: 'Sign out', to: '/sign'}
+        {label: 'Sign out', to: '/sign'},
       ]
     }
   },
@@ -18,9 +20,6 @@ export default {
       this.drawer = !this.drawer;
     }
   },
-  mounted() {
-    this.$router.push('/Home'); // Redirigir a la vista 'App'
-  }
 }
 </script>
 
