@@ -13,17 +13,20 @@ import ClientHomeComponent from "../dashboard-and-analytics/pages/client/client-
 import ClientServiceHistoryComponent from "../profile-management/component/client/client-service-history.component.vue";
 import rentServiceComponent from "../service-execution-and-monitor/pages/client/rent-service.component.vue";
 import ClientProfile from "../profile-management/component/client/client-profile.component.vue";
-import Sign from"../profile-management/pages/mechanic/view-sign.component.vue";
 import Home from "../public/pages/profile/view-general.component.vue";
+import SignInComponent from "../iam/pages/sign-in.component.vue";
+import SignUpComponent from "../iam/pages/sign-up.component.vue";
 
 const router = createRouter({
     history: createWebHistory(),
     routes: [
+
+        { path: '/sign-in', name: 'sign-in', component: SignInComponent, meta: { title: 'Sign In' } },
+        { path: '/sign-up', name: 'sign-up', component: SignUpComponent, meta: { title: 'Sign Up' } },
         {path: '/mechanic/home', component: MechanicHome},
         {path: '/mechanic/wallet', component: MechanicWallet},
         {path: '/mechanic/history', component: MechanicHistory},
         {path: '/mechanic/profile', component: MechanicProfileComponent},
-        {path: '/sign', component: Sign},
 
         {path: '/owner/home', component: OwnerHome},
         {path: '/owner/wallet', component: OwnerWallet},
@@ -41,6 +44,11 @@ const router = createRouter({
     ]
 });
 
+router.beforeEach((to, from, next) => {
+    let baseTitle = 'GlideGo';
+    document.title = `${baseTitle} | ${to.meta['title']}`;
+    next();
+});
 
 export default router;
 

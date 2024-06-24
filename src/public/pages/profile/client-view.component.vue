@@ -1,8 +1,10 @@
 <script>
-import Home from "./view-general.component.vue";
+import AuthenticationSection from "../../../iam/components/authentication-section.component.vue";
+
 
 export default {
   name: 'client-view',
+  components: {AuthenticationSection},
   data(){
     return{
       drawer: false,
@@ -33,12 +35,15 @@ export default {
         <img src="https://i.ibb.co/rFt5BnP/file.png" alt="file" height="60px" width="auto">
         <p class="text-lg w-10">GlideGo</p>
       </template>
-      <template #end>
+      <template >
         <div class="flex-column">
           <router-link v-for="item in items" :key="item.label" v-slot="{navigate, href}" :to="item.to" custom>
             <pv-button :href="href" class="p-button-text text-white" @click="navigate">{{item.label}}</pv-button>
           </router-link>
         </div>
+      </template>
+      <template #end>
+        <authentication-section/>
       </template>
     </pv-toolbar>
   </header>
