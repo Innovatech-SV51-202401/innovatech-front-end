@@ -26,6 +26,7 @@ import Sidebar from "primevue/sidebar";
 import Tag from "primevue/tag";
 import Textarea from "primevue/textarea";
 import Toolbar from "primevue/toolbar";
+import {createPinia} from 'pinia';
 
 import 'primeflex/primeflex.css';
 
@@ -38,6 +39,7 @@ import DataView from "primevue/dataview";
 import Paginator from "primevue/paginator";
 import Column from "primevue/column";
 
+const pinia = createPinia();
 createApp((App))
     .use(PrimeVue, {ripple: true})
     .use(DialogService)
@@ -69,4 +71,5 @@ createApp((App))
     .component('pv-column', Column)
     .component('pv-data-table',DataTable)
     .use(router)
+    .use(pinia)
     .mount('#app');
