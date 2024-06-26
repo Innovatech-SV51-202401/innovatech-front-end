@@ -8,11 +8,10 @@ Aplicación web desarrollado por el equipo de INNOVATECH, somos un equipo confor
 
 ## Integrantes:
 <ul>
-    <li>Integrante 1</li>
-    <li>Integrante 1</li>
-    <li>Integrante 1</li>
-    <li>Integrante 1</li>
-    <li>Integrante 1</li>
+    <li>Omar Berrocal</li>
+    <li>Néstor Velarde</li>
+    <li>Vladimir Quique</li>
+    <li>Sebastian Flores</li>
 </ul>
 
 ## Tecnologías
